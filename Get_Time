@@ -1,0 +1,23 @@
+//THIS FUNCTION CAN BE USED FOR GETTING THE CLOCKING IN/OUT INFO.
+//FOUND THIS CODE EARLIER TODAY. I AM NOT ABLE TO TEST IT OUT BECAUSE I AM AT WORK
+//BUT I WILL MODIFY IT TO STORE INFO TO APPROPRAITE VARIABLES AND HAVE IT RETURN THE VALUE WHEN I GET HOME
+
+
+#include<iostream>
+#include<ctime>
+using namespace std;
+
+Void Get_Time()
+{
+
+   time_t timetoday;
+   time (&timetoday);
+   cout << "Calendar date and time as per todays is : "<< asctime(localtime(&timetoday));
+   return 0;
+   
+}
+
+
+
+
+}
