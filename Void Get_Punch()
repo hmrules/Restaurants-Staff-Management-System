@@ -1,0 +1,12 @@
+\\Global variable vector<string> Punch_Time; must be added to program.
+
+void Get_Punch()
+{
+
+time_t now = time(0);
+
+	// convert now to string form
+	char* pt = ctime(&now);
+	Punch_Time.push_back(pt);
+	
+}
